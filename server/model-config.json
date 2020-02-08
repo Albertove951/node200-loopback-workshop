@@ -34,5 +34,17 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "memory": {
+    "dataSource": "db",
+    "public": true
+  },
+  "team": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "player": {
+    "dataSource": "MongoDB",
+    "public": true
   }
 }
